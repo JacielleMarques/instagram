@@ -1,0 +1,385 @@
+body{
+    background-color: #bde0fe;
+    margin: 0;
+    text-align: center;
+}
+
+#site{
+    width: 100%;
+    background-color: #00000088;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: auto auto  ; */
+    /* grid-template-columns:30% 70% ; */
+    /* grid-template-columns: 100px 300px ; */
+    grid-template-areas: 
+        'menu   topo   topo   topo'
+        'menu   topo   topo   topo'
+        'menu   menu2  menu2  menu2'
+        'menu   foto1  foto2  foto3'
+        'menu   foto4  foto5  foto6 '
+        'menu   foto7  foto8  foto9'
+        
+    ;
+    /* Auto quer dizer automatico */
+     /* GRID vem de grade, onde basicamente vc tem as linhas 
+    que em inglês e row e colunas que em inglês e column */
+}
+
+h1{
+
+    color: #ffffff;
+    font-family: "Sono";
+}
+
+p{
+    color: #ffffff;
+    font-family: "Sono";
+}
+
+#site div{
+    padding: 1em;
+}
+
+#topo{
+    display: grid;
+    background-color: #000000;
+    grid-area: topo;
+    grid-template-columns: auto auto;
+}
+
+.fotop{
+    display: grid;
+    text-align: center;
+}
+
+#ftp{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.descricao{
+    text-align: center;
+    display: grid;
+}
+
+#menu{
+    background-color: #00000088;
+    grid-area: menu;
+    border-radius: solid 2px;
+}
+
+.instagram{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+
+    
+}
+
+.instagram:hover{
+    background-color:#9d4edd ;
+}
+
+.paginai{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.paginai:hover{
+    background-color:#9d4edd ;
+}
+
+.pesquisa{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.pesquisa:hover{
+    background-color:  #9d4edd;
+}
+
+.explorar{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.explorar:hover{
+    background-color: #9d4edd;
+}
+
+.mensagens{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.mensagens:hover{
+    background-color: #9d4edd;
+}
+
+.notificacao{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.notificacao:hover{
+    background-color: #9d4edd;
+}
+
+.criar{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.criar:hover{
+    background-color: #9d4edd;
+}
+
+.perfil{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.perfil:hover{
+    background-color: #9d4edd;
+}
+
+.mais{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.mais:hover{
+    background-color: #9d4edd;
+}
+
+#menu2{
+    display: grid;
+    background-color: #00000088;
+    grid-area: menu2;
+    grid-template-columns: auto auto auto auto; 
+}
+
+.publi{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.publi:hover{
+    background-color: #9d4edd; 
+ }
+
+.reels{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.reels:hover{
+    background-color: #9d4edd; 
+ }
+
+.salvos{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.salvos:hover{
+    background-color: #9d4edd; 
+ }
+
+.marcados{
+    text-align: center;
+    background-color:#003049 ;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    padding: 10px 20px; /*espaçamento interno*/
+    margin: 5px;
+}
+
+.marcados:hover{
+    background-color: #9d4edd; 
+ }
+ /* #fotos{
+    display: grid;
+    background-color: #308cdc;
+    grid-area: fotos;
+    grid-template-columns: auto auto auto ; 
+} */
+
+#fotos img{
+    width: 300px;
+    height: 300px;
+}
+
+.foto1{
+    background-color: #000000;
+    grid-area: foto1;
+}
+
+.foto2{
+    background-color: #000000;
+    grid-area: foto2;
+}
+
+.foto3{
+    grid-area: foto3;
+    background-color: #000000;
+}
+
+.foto4{
+    grid-area: foto4;
+    background-color: #000000;
+}
+
+.foto5{
+    background-color: #000000;
+    grid-area: foto5;
+}
+
+.foto6{
+    background-color: #000000;
+    grid-area: foto6;
+}
+
+.foto7{
+    background-color: #000000;
+    grid-area: foto7;
+}
+
+.foto8{
+    background-color: #000000;
+    grid-area: foto8;
+}
+
+.foto9{
+    background-color: #000000;
+    grid-area: foto9;
+}
+
+#l {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#f{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#o{
+     width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#t{
+     width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#u{
+     width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#s{
+     width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#d{
+     width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#a{
+     width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#r{
+     width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
